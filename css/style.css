@@ -10,6 +10,10 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
+img {
+    -webkit-user-drag: none;
+}
+
 #header {
     background-image: url("../images/back-cats.jpg");
     background-size: cover;
