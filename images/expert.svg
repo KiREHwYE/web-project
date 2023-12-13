@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440.26 961.22">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-2 {
+        fill: #040613;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+        fill-opacity: .28;
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #f14d34;
+      }
+
+      .cls-7 {
+        letter-spacing: .02em;
+      }
+
+      .cls-8 {
+        letter-spacing: .01em;
+      }
+
+      .cls-9 {
+        fill: #a8a8a8;
+        font-family: ArialMT, Arial;
+        font-size: 20px;
+      }
+
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        fill: #fff;
+        font-family: Arial-Black, Arial;
+        font-size: 50px;
+        font-weight: 800;
+      }
+
+      .cls-12 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-13 {
+        letter-spacing: .01em;
+      }
+
+      .cls-14 {
+        letter-spacing: .02em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="3280.79" y1="1228.95" x2="424.58" y2="469.92" gradientTransform="translate(0 968) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-2" x=".26" width="1440" height="839"/>
+  <rect class="cls-3" x=".26" width="1440" height="839"/>
+  <rect class="cls-4" x="1030.26" y="566" width="3" height="100"/>
+  <rect class="cls-4" x="730.26" y="566" width="3" height="100"/>
+  <image width="4082" height="6123" transform="translate(0 61.74) scale(.15)" xlink:href="big-cat.png"/>
+  <text class="cls-9" transform="translate(753.47 599.57) scale(1.05 1)"><tspan x="0" y="0">К</tspan><tspan class="cls-12" x="11.65" y="0">а</tspan><tspan x="22.33" y="0">чест</tspan><tspan class="cls-5" x="63.04" y="0">в</tspan><tspan x="73.44" y="0">енный п</tspan><tspan class="cls-12" x="148.58" y="0">о</tspan><tspan x="159.27" y="0">д</tspan><tspan class="cls-5" x="170.94" y="0">х</tspan><tspan class="cls-12" x="180.71" y="0">о</tspan><tspan x="191.4" y="0">д </tspan><tspan x="0" y="24">к о</tspan><tspan class="cls-7" x="25.43" y="24">к</tspan><tspan class="cls-5" x="34.62" y="24">а</tspan><tspan x="45.52" y="24">занию </tspan><tspan class="cls-5" x="108.58" y="24">в</tspan><tspan class="cls-12" x="118.98" y="24">о</tspan><tspan class="cls-13" x="129.67" y="24">л</tspan><tspan x="141.56" y="24">ос</tspan><tspan class="cls-10" x="162.69" y="24">а</tspan><tspan class="cls-6" x="173.37" y="24">тых </tspan><tspan class="cls-5" x="0" y="48">у</tspan><tspan x="9.78" y="48">слуг!</tspan></text>
+  <text class="cls-9" transform="translate(1051.75 599.79) scale(1.05 1)"><tspan class="cls-1" x="0" y="0">Т</tspan><tspan class="cls-12" x="10.65" y="0">о</tspan><tspan x="21.34" y="0">ль</tspan><tspan class="cls-8" x="43.43" y="0">к</tspan><tspan x="52.4" y="0">о пор</tspan><tspan class="cls-10" x="102.16" y="0">о</tspan><tspan class="cls-6" x="112.84" y="0">дистые </tspan><tspan class="cls-13" x="185.9" y="0">к</tspan><tspan class="cls-12" x="194.87" y="0">о</tspan><tspan x="205.56" y="0">ты,</tspan><tspan x="0" y="24">ни</tspan><tspan class="cls-14" x="22.22" y="24">к</tspan><tspan x="31.41" y="24">аких д</tspan><tspan class="cls-5" x="89.68" y="24">в</tspan><tspan x="100.08" y="24">орняг!</tspan></text>
+  <text class="cls-11" transform="translate(730.39 450.67)"><tspan x="0" y="0">Кот на час,</tspan><tspan x="0" y="60">опыт 14 лет!</tspan></text>
+</svg>
