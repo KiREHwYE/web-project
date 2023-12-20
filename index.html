@@ -305,21 +305,21 @@
         <div style="margin-top: -23em; width: 40%; text-align: center">
             <div id="sponsors" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="4000">
+                    <div class="carousel-item active" data-bs-interval="3000">
                         <img draggable="false" src="images/Gazprombank.svg.png" alt="Los Angeles" class="d-block w-100">
                         <div class="mt-5 text-black">
                             <h3>Газпромбанк</h3>
                             <p>Один из крупнейших универсальных банков России, занимает третье место в списке банков Центральной и Восточной Европы по размеру собственного капитала.</p>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="4000">
+                    <div class="carousel-item" data-bs-interval="3000">
                         <img draggable="false" src="images/Sberbank_Logo_2020.svg.png" alt="Chicago" class="d-block w-100">
                         <div class="mt-5 text-black">
                             <h3>СберБанк</h3>
                             <p>Российский финансовый конгломерат, крупнейший универсальный банк России и Восточной Европы.</p>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="4000">
+                    <div class="carousel-item" data-bs-interval="3000">
                         <img draggable="false" src="images/Tinkoff_Bank_logo.svg.png" alt="New York" class="d-block w-100">
                         <div class="mt-5 text-black">
                             <h3>Тинькофф</h3>
@@ -331,32 +331,64 @@
         </div>
     </div>
 
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="p-5 modal-content d-flex flex-column justify-content-center align-items-center">
+
+                <div class="modal-header">
+                    <h1><b>Form</b></h1>
+                </div>
+
+                <div class="modal-body d-flex justify-content-center">
+
+                    <form id="myForm" class="d-flex justify-content-center">
+
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <input required style="margin-top: 1em; height: 4em" type="text" class="form-control" placeholder="ФИО" id="name" name="name">
+                            <input required style="margin-top: 1em; height: 4em" type="number" class="form-control" placeholder="Телефон" id="phone" name="phone">
+                            <input required style="margin-top: 1em; height: 4em" type="email" class="form-control" placeholder="E-mail" id="email" name="email">
+                            <input required style="margin-top: 1em; height: 4em" type="text" class="form-control" placeholder="Организация" id="organization" name="organization">
+                            <textarea required name="comment" cols="10" rows="3" placeholder="Сообщение" id="message" style="margin-top: 1em;width: 100%; resize: none; border-radius: 0.4em"></textarea>
+                            <p><input required type="checkbox" id="contract_agreement" name="contract_agreement" value="yes">Я согласен с политикой обработки персональных данных</p>
+                            <button style="margin-top: 1em; width: 15em; height: 3.5em; border: 1px firebrick solid; border-radius: 1em" id="submitter" type="submit" class="btn-2">ОТПРАВИТЬ</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <div style="margin-top: 7em; background-color: #050C33">
-        <div class="row p-5 w-100" id="form">
-            <div class="col-6 p-5">
+
+        <div class="p-5 d-flex d-row justify-content-between w-100" id="form">
+
+            <div style="padding-left: 4em" class="w-50">
                 <h1 style="font-size: 3em;font-weight: bolder; color: white">Оставь заявку на шерстяную поддержку</h1>
                 <h4 style="font-size: 1.5em; padding-top: 1.5em; color: darkgray">Срочно нужен кот? Вы больше не можете жить один? Тогда вам точно к нам! Просто оставьте заявку и наш менеджер с вами свяжется!</h4>
             </div>
-            <div class="col-6 p-5">
-                <form style="margin-left: 8em">
-                    <div class="column text-center">
-                            <input required style="margin-top: 1em; height: 4em" type="text" class="form-control" placeholder="Ваше имя" name="name">
-                            <input required style="margin-top: 1em; height: 4em" type="number" class="form-control" placeholder="Телефон" name="phone">
-                            <input required style="margin-top: 1em; height: 4em" type="email" class="form-control" placeholder="E-mail" name="email">
-                            <textarea required name="comment" id="com" cols="10" rows="3" placeholder="Комментарий" style="margin-top: 1em;width: 100%; resize: none; border-radius: 0.4em"></textarea>
-                        <button style="margin-top: 1em; width: 15em; height: 3em" type="submit" class="btn btn-primary">ОТПРАВИТЬ</button>
-                    </div>
-                </form>
+
+            <div style="padding-right: 4em">
+                <!-- Button to Open the Modal -->
+                <button
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#myModal"
+                        style="width: 30em; height: 10em; border: 2px firebrick solid; border-radius: 1em"
+                        class="btn-2 d-flex text-center align-items-center justify-content-center">
+                    Заполнить заявку
+                </button>
             </div>
         </div>
-        <div class="row w-100" style="padding-left: 3em">
-            <div class="col" style="padding-left: 3em">
+
+        <div class="p-5 d-flex d-row justify-content-between w-100">
+            <div style="padding-left: 4em" >
                 <p class="d-inline-block" style="color: white; font-size: 1em;">Проект ООО «Cat House», Краснодар, Россия.<br>Cat House является зарегистрированной торговой маркой.</p>
             </div>
-            <div class="col text-center text-white">
-                <h2 class="d-inline-block" style="text-align: center;font-weight: bold; font-size: 1.5em;">8 800 222-26-73</h2>
-            </div>
-            <div class="col text-center">
+            <div style="padding-right: 4em" >
                 <a class="d-inline-block" style="text-align: center;font-weight: bold; font-size: 1.5em;" mailto href="mailto:info@drupal-coder.ru">info@cat-house.ru</a>
             </div>
 
@@ -364,6 +396,51 @@
 
         </div>
     </div>
+
+    <script type="text/javascript" src="js/jquery-3.7.1.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#myForm").on("submit", function (event) {
+                event.preventDefault(); // Отменяем стандартное поведение формы
+
+                // Очищаем данные формы
+                $("#name").val('');
+                $("#phone").val('');
+                $("#email").val('');
+                $("#organization").val('');
+                $("#message").val('');
+                $("#contract_agreement").val('');
+                $("#submitter").text('ОТПРАВЛЕНО!');
+
+                setTimeout(function () {
+                    $("#submitter").text("ОТПРАВИТЬ")
+                }, 3000);
+
+                // Получаем данные из полей формы
+                const data = {
+                    name: $("#name").val(),
+                    phone: $("#phone").val(),
+                    email: $("#email").val(),
+                    organization: $("#organization").val(),
+                    message: $("#message").val(),
+                    contract_agreement: $("#contract_agreement").val()
+                };
+
+                // Отправляем данные на сервер с помощью AJAX
+                $.ajax({
+                    url: "https://formcarry.com/s/0xKs3w8JYm", // Здесь указываем URL-адрес серверного обработчика
+                    type: "post",
+                    data: data,
+                    success: function() {},
+                    error: function (error) {
+                        // Обработка ошибок при отправке данных
+                        console.error("Ошибка при отправке данных: ", error);
+                    },
+                });
+            });
+        });
+    </script>
 
     <script>
         function toggleDropdown() {
